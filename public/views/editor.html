@@ -1,0 +1,31 @@
+<div class="jumbotron text-center">
+	<!-- FORM TO CREATE TODOS -->
+		<div id="todo-form" class="row text-left">
+			<div class=" text-left">
+				<form>
+					<div class="form-group">
+
+						<!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
+						<input type="text" class="form-control input-lg text-left" required placeholder="Post Title" ng-model="formData.postTitle">
+						<div>Post URL: <span>http://mattmartin.io/blog/</span>{{formData.postTitle}}</div>
+
+
+					</div>
+
+					<!-- createToDo() WILL CREATE NEW TODOS -->
+					<!--<button type="submit" class="btn btn-primary btn-lg" ng-click="createTodo()">Add</button>-->
+				</form>
+			</div>
+			<div text-angular ng-model="formData.htmlVariable"></div>
+
+			<div class="btn-group text-left">
+				<button type="button" class="btn btn-primary">Save Draft</button>
+  				<button type="button" class="btn btn-primary">Save and Publish</button>
+  			</div>
+  			<div class="btn-group text-right">
+				<button type="button" class="btn btn-info">Abandon and Close</button>
+  			</div>
+</div>
+</div>
+		</div>
+</div>

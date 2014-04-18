@@ -1,0 +1,1 @@
+angular.module('sampleApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'PostCtrl', 'NerdCtrl', 'NerdService', 'GeekCtrl', 'GeekService', 'textAngular']);
