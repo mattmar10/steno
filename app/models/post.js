@@ -28,9 +28,8 @@ var PostSchema = new Schema({
         type: Schema.ObjectId,
         ref: 'User'
     },
-    published:{
-        type: Boolean,
-        default: false
+    publishDate:{
+        type: Date
     },
     tags:{
     	type: [String]
